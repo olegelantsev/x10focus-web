@@ -3,12 +3,28 @@ layout: default
 title: x10focus - Pomodoro Productivity Tool
 ---
 
-<main>
-  <div class="center-text">
-    <h1>X10focus</h1>
-    <p class="grey-text">A Pomodoro Timer for You</p>
-    <p class="grey-text">Additional related text here.</p>
-    <a href="#" class="apple-store-btn">Get it on the App Store</a>
-    <img src="{{ '/assets/product-screenshot.png' | relative_url }}" alt="Product Screenshot">
-  </div>
-</main>
+# Welcome to x10focus
+
+## Mission
+Smart way of increasing productivity/efficiency and eliminating distractions for IT engineers & managers.
+
+10x engineers secret weapon to stay focused, prioritize their work and time, and never be late for meetings.
+
+Tool should help with the tasks requiring individual focus (and not miss the meetings at the same time).
+
+### Features
+- Feature 1
+- Feature 2
+- Feature 3
+
+### How It Works
+1. Step 1
+2. Step 2
+3. Step 3
+
+### Pricing
+- Free Version
+- Pro Version
+
+### Contact
+For inquiries, contact us at [contact@x10focus.com](mailto:contact@x10focus.com).

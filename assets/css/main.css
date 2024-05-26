@@ -22,9 +22,8 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
     flex-grow: 1;
   }
   
-  header {
+  header, footer {
     background-color: transparent;
-    color: #fff;
     padding: 10px 0;
   }
   
@@ -38,7 +37,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
   }
   
   nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
   }
   
@@ -48,44 +47,39 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
     padding: 0 20px;
   }
   
-  .center-text {
+  .hero {
     text-align: center;
-    margin-top: 50px; /* Adjust as needed */
+    margin-top: 100px;
   }
   
-  h1 {
-    font-size: 36px;
-  }
-  
-  .grey-text {
-    color: #777;
+  .hero h1 {
+    font-size: 3rem;
     margin-bottom: 20px;
   }
   
-  .apple-store-btn {
+  .subtext {
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .app-store-btn {
     display: inline-block;
     background-color: #007aff;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-right: 10px;
   }
   
-  .apple-store-btn:hover {
-    background-color: #0056b3;
+  .transparent-header {
+    background-color: transparent !important;
   }
   
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  footer {
+  .transparent-footer {
     background-color: transparent;
     color: #fff;
     text-align: center;
     padding: 10px 0;
     margin-top: auto;
   }
-  

@@ -10,7 +10,7 @@
 
 <body>
   <div class="wrapper">
-    <header>
+    <header class="transparent-header">
       <nav>
         <ul>
           <li><a href="#features">Features</a></li>
@@ -22,11 +22,16 @@
     </header>
 
     <main>
-      {{ content }}
+      <div class="hero">
+        <h1>X10focus: A Pomodoro Timer for You</h1>
+        <p class="subtext">Smart way of increasing productivity/efficiency and eliminating distractions for IT engineers & managers.</p>
+        <a href="#" class="app-store-btn">Get it on the App Store</a>
+        <img src="{{ '/assets/product-screenshot.png' | relative_url }}" alt="Product Screenshot">
+      </div>
     </main>
   </div>
 
-  <footer>
+  <footer class="transparent-footer">
     <p>&copy; 2024 x10focus. All rights reserved.</p>
   </footer>
 </body>
