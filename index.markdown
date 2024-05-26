@@ -5,11 +5,15 @@ title: Pomodoro Timer Product
 
 <div class="container">
   <div class="header">
-    <h1>Pomodoro Timer: Boost Your Productivity</h1>
-    <p>Smart way of increasing productivity/efficiency and eliminating distractions for IT engineers & managers.</p>
-    <p>10x engineers secret weapon to stay focused, prioritize their work and time, and never be late for meetings.</p>
-    <p>Tool should help with the tasks requiring individual focus (and not miss the meetings at the same time).</p>
-    <img src="/assets/product-screenshot.png" alt="Product Screenshot" class="screenshot">
+    <div class="description">
+      <h1>Pomodoro Timer: Boost Your Productivity</h1>
+      <p>Smart way of increasing productivity/efficiency and eliminating distractions for IT engineers & managers.</p>
+      <p>10x engineers secret weapon to stay focused, prioritize their work and time, and never be late for meetings.</p>
+      <p>Tool should help with the tasks requiring individual focus (and not miss the meetings at the same time).</p>
+    </div>
+    <div class="screenshot">
+      <img src="/assets/product-screenshot.png" alt="Product Screenshot">
+    </div>
   </div>
 
   <div class="features">

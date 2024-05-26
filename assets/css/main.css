@@ -13,16 +13,26 @@ body {
   }
   
   .header {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     background: #333;
     color: #fff;
   }
   
-  .header img.screenshot {
+  .header .description {
+    flex: 1;
+  }
+  
+  .header .screenshot {
+    flex: 0 0 300px;
+    margin-left: 20px;
+  }
+  
+  .header .screenshot img {
     max-width: 100%;
     height: auto;
-    margin-top: 20px;
   }
   
   .features, .faq, .contact {
