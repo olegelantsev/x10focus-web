@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Pomodoro Timer Product
+title: x10focus - pomodoro productivity tool
 ---
 
 <div class="container">
   <div class="header">
     <div class="description">
-      <h1>Pomodoro Timer: Boost Your Productivity</h1>
+      <h1>x10focus - Pomodoro Productivity Tool</h1>
       <p>Smart way of increasing productivity/efficiency and eliminating distractions for IT engineers & managers.</p>
       <p>10x engineers secret weapon to stay focused, prioritize their work and time, and never be late for meetings.</p>
       <p>Tool should help with the tasks requiring individual focus (and not miss the meetings at the same time).</p>
