@@ -70,6 +70,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
     border-radius: 5px;
     text-decoration: none;
     margin-right: 10px;
+    margin-bottom: 20px; /* Added margin-bottom */
   }
   
   .transparent-header {
@@ -83,3 +84,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
     padding: 10px 0;
     margin-top: auto;
   }
+  
+  .product-screenshot {
+    max-width: 400px;
+    margin: 20px auto; /* Center the image */
+  }
+  
