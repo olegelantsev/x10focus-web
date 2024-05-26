@@ -15,6 +15,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #f5f7fa;
   }
   
   .wrapper {
@@ -22,7 +23,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
   }
   
   header {
-    background-color: #333;
+    background-color: transparent;
     color: #fff;
     padding: 10px 0;
   }
@@ -47,9 +48,44 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
     padding: 0 20px;
   }
   
+  .center-text {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  .grey-text {
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .apple-store-btn {
+    display: inline-block;
+    background-color: #007aff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  
+  .apple-store-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
   footer {
-    background-color: #333;
+    background-color: transparent;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    margin-top: auto;
   }
+  
