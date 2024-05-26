@@ -1,89 +1,55 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Reset styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
   }
   
-  .container {
-    max-width: 960px;
-    margin: auto;
-    padding: 20px;
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: #f5f9fc; /* Light blue background */
-    color: #000; /* Black text color for better contrast */
-  }
-  
-  .header .description {
-    flex: 1;
-  }
-  
-  .header .screenshot {
-    flex: 0 0 300px;
-    margin-left: 20px;
-  }
-  
-  .header .screenshot img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .features, .faq, .contact {
-    background: #fff;
-    margin: 20px 0;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .features ul, .faq ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .features li, .faq li {
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .features li:last-child, .faq li:last-child {
-    border-bottom: none;
-  }
-  
-  .contact form {
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
   }
   
-  .contact label {
-    margin-bottom: 5px;
-    font-weight: bold;
+  .wrapper {
+    flex-grow: 1;
   }
   
-  .contact input, .contact textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  
-  .contact button {
-    padding: 10px;
-    font-size: 16px;
-    background: #333;
+  header {
+    background-color: #333;
     color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    padding: 10px 0;
   }
   
-  .contact button:hover {
-    background: #555;
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
   }
