@@ -93,3 +93,38 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
     margin: 20px auto;
   }
   
+  .section {
+    margin-bottom: 40px; /* Increase the bottom margin between sections */
+  }
+
+  .section-heading {
+    text-align: center;
+    font-size: 2rem; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Add margin to separate the heading from the list */
+  }
+
+  .feature-list {
+    text-align: center; /* Align list items to the center */
+  }
+  
+  .feature-list li {
+    margin-left: auto;
+    margin-right: auto; /* Center the list items horizontally */
+    max-width: 600px; /* Set a maximum width for the list items */
+    text-align: left; /* Align the text within list items to the left */
+  }
+
+  #how-it-works {
+    margin-bottom: 40px; /* Maintain spacing between this section and the next */
+  }
+  
+  .section-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .how-it-works-content {
+    margin: 0 auto; /* Center the content horizontally */
+    max-width: 600px; /* Set a maximum width for the content */
+  }
