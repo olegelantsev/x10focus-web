@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+  }
+  
+  .header img.screenshot {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .features, .faq, .contact {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .features ul, .faq ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li, .faq li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .features li:last-child, .faq li:last-child {
+    border-bottom: none;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact input, .contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .contact button {
+    padding: 10px;
+    font-size: 16px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background: #555;
+  }
